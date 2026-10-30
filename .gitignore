@@ -1,0 +1,21 @@
+# Fichiers système et Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Base générée par index.py (se reconstruit en 4 secondes)
+*.db
+
+# Fichiers d'extraction générés à la racine (une copie est dans rapport/data/)
+/P*_analyse_*.csv
+
+# Données brutes fournies dans le cadre du cours : non publiées par défaut.
+# Si votre professeur autorise leur diffusion, supprimez ces trois lignes.
+donnees_geo_climatiques.csv
+donnees_socio_economiques.csv
+mesures_occitanie_journaliere_pollution.csv
+
+# Rendus R Markdown
+rapport/*.html
+.Rproj.user/
+.Rhistory
